@@ -1,2 +1,5 @@
-# tylertouche-website
-Website for Tyler Touché. House and disco music.
+# Tyler Touché Website
+A personal website for Tyler Touché.
+
+http://www.tylertouche.com  
+http://soundcloud.com/tylertouche
