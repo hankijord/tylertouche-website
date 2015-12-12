@@ -1,4 +1,4 @@
-# Tyler Touché Website
+# Tyler Touché
 A personal website for Tyler Touché.
 
 http://www.tylertouche.com  
