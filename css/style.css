@@ -1,0 +1,182 @@
+@font-face {
+    font-family: GillSans;
+    src: url('../font/GillSans.ttc');
+}
+
+@font-face {
+    font-family: Southern;
+    src: url('../font/SouthernAire_Personal_Use_Only.ttf');
+}
+
+body {
+	font-family: GillSans, sans-serif;
+	font-weight: 100;
+	line-height: 1.5em;
+	color: white;
+	background-color: black;
+	border: 50px solid white;
+	text-align: center;
+	min-width: 400px;
+	margin: 0;
+	
+/*
+	background: url('../img/background.jpg'), linear-gradient(to bottom, black, black);
+	background-blend-mode: luminosity;
+	background-size: cover;
+	background-position: bottom;
+*/
+}
+
+body::before
+{
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+	width: calc(100% - 100px);
+	height: calc(100% - 100px);
+	min-width: 400px;
+	
+	background-blend-mode: luminosity;
+	background-image: url('../img/background.jpg'); /* fallback */
+	background-image: url('../img/background.jpg'), -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000)); /* Saf4+, Chrome */
+	background-image: url('../img/background.jpg'), -webkit-linear-gradient(top, #000000, #000000); /* Chrome 10+, Saf5.1+ */
+	background-image: url('../img/background.jpg'),    -moz-linear-gradient(top, #000000, #000000); /* FF3.6+ */
+	background-image: url('../img/background.jpg'),     -ms-linear-gradient(top, #000000, #000000); /* IE10 */
+	background-image: url('../img/background.jpg'),      -o-linear-gradient(top, #000000, #000000); /* Opera 11.10+ */
+	background-image: url('../img/background.jpg'),         linear-gradient(top bottom, #000000, #000000); /* W3C */
+	
+	background-size: cover;
+	background-position: bottom;
+	opacity: 0.75;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#content{
+	position: absolute;
+  top: 50%;
+	left: 50%;
+	font-weight: 100;
+	
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-moz-transform: translateY(-50%) translateX(-50%);	
+	-o-transform: translateY(-50%) translateX(-50%);	
+	transform: translateY(-50%) translateX(-50%);
+}
+
+#logo {
+	line-height: 6em;
+	top: 50%;
+	position: absolute;
+	margin-left: -4.5em;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-moz-transform: translateY(-50%) translateX(-50%);
+	-o-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+	
+	
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 10em;
+	font-family: 'Southern', sans-serif;
+}
+
+.scoot_a_little_to_the_right_please {
+	margin-left: 1em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+#facebook{
+	background: url('../img/facebook.png');
+}
+
+#soundcloud{
+	background: url('../img/soundcloud.png');
+}
+
+#youtube{
+	background: url('../img/youtube.png');
+}
+
+#instagram{
+	background: url('../img/instagram.png');
+}
+
+#twitter{
+	background: url('../img/twitter.png');
+}
+
+#social a {
+	background-size: contain;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+}
+
+#social li:last-child a {
+	margin-right: 0px;
+}
+
+#social {
+	min-width: 400px;
+	position: absolute;
+	bottom: 70px;
+	width: auto;
+	padding: 0px 0px;
+	margin: 0 auto;
+	left: 50%;
+	
+	-webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+#nav {
+	min-width: 400px;
+	position: relative;
+	padding: 0px;
+	top: 30px;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: 100;
+	font-size: 1.8em;
+	letter-spacing: 0px;
+}
+
+#nav a {
+	-webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;	
+}
+
+#nav li {
+	margin: 0em .5em;
+	opacity: 1;
+}
+
+.selected {
+	border-bottom: 3px solid white;
+}
+
+#merch {
+	display: none;
+}
