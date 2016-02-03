@@ -18,7 +18,7 @@ $(document).ready(function(){
 	
 	$('#about').click(function(){
 		$("#logo").css({'top': '-15px','margin-left': '-2em', 'transform': 'translateX(-50%) scale(0.4)', '-webkit-transform': 'translateX(-50%) scale(0.4)', '-moz-transform': 'translateX(-50%) scale(0.4)', '-o-transform': 'translateX(-50%) scale(0.4)'});
-		$("#content").html("<p>With Triple J favourites 'Heart in Motion' and 'Baguette' already establishing him as the disco wonder-kid of the Australian dance music scene, 18 year old Tyler Touché is set to take hold of 2015 with his signature sound. His tasteful blend of house and disco has already recieved support from names such as Motez, Gigamesh, Tensnake, The Magician, Moon Boots and The Superman Lovers. Having spent 2014/2013 on nationwide tours with Flight Facilities, Nina Las Vegas, Bluejuice, and securing spots on Falls Festival, Splendour in the Grass, Big Day Out and Listen Out, Tyler Touché is a name to remember.</p>");
+		$("#content").html("<p>With Triple J favourites 'Heart in Motion' and 'Baguette' already establishing him as the disco wonder-kid of the Australian dance music scene, 20 year old Tyler Touché is set to take hold of 2016 with his signature sound. His tasteful blend of house and disco has already recieved support from names such as Motez, Gigamesh, Tensnake, The Magician, Moon Boots and The Superman Lovers. Having spent 2014/2013 on nationwide tours with Flight Facilities, Nina Las Vegas, Bluejuice, and securing spots on Falls Festival, Splendour in the Grass, Big Day Out and Listen Out, Tyler Touché is a name to remember.</p>");
 		
 		$("#music").removeClass("selected");
 		$("#merch").removeClass("selected");
